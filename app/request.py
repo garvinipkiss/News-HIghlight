@@ -90,3 +90,42 @@ def get_articles(id):
             news_results = process_articles(news_results_list)
 
     return news_results
+
+def process_articles(articles_list):
+    """
+    We now want to process the dictionary and
+    output a list of objects - news_results.
+
+    We process results will transform our dictionary into a list of objects.
+    """
+    news_results = []
+    source_dictionary = {}
+    for result in articles_list:
+        # We store the nested dictionary in source_id
+        source_id = result['source']
+        # We extract and store it in our source_dictionary
+        source_dictionary['id'] = source_id['id']
+        source_dictionary['name'] = source_id['name']
+        id = source_dictionary['id']
+        name = source_dictionary['name']
+        print(name)
+        # print(id)
+        author = result.get('author')
+        title = result.get('title')
+        description = result.get('description')
+        url = result.get('url')
+        urlToImage = result.get('urlToImage')
+        publishedAt = result.get('publishedAt')
+
+        if urlToImage:
+            print(id)
+            source_object = Articles(id,
+                                     name,
+                                     author,
+                                     title,
+                                     description,
+                                     url,
+                                     urlToImage, publishedAt)
+            news_results.append(source_object)
+
+    return news_results
