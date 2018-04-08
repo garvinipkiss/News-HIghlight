@@ -1,0 +1,34 @@
+@font-face{font-family:"Open Sans"; font-style:normal; font-weight:400; src:local("Open Sans"),local("OpenSans"),url("../fonts/OpenSans-400.woff") format("woff")}
+@font-face{font-family:"Varela"; font-style:normal; font-weight:400; src:local("Varela"),url("../fonts/Varela-400.woff") format("woff")}
+
+body{background-image:url("images/pattern-bg.png"); background-repeat:repeat; color:#444; overflow-x:hidden !important}
+ul{padding:0; margin:0; list-style:none}
+a{text-decoration:none}
+a:hover{color:#646464}
+a:focus{outline:none}
+h2{font-family:'Varela',sans-serif; line-height:23px}
+.img-center{display:block; margin-left:auto; margin-right:auto; text-align:center}
+.img-right{display:block; margin-left:auto}
+.img-left{display:block; margin-right:auto}
+.yellow_bg{background-color:#ffd62c}
+.yellow_btn{background-color:#ffd62c; color:#fff}
+.yellow_btn:hover{background-color:#f8c907; color:#fff}
+.limeblue_bg{background-color:#7dc34d}
+.blue_bg{background-color:#09c}
+.blue_btn{background-color:#09c; color:#fff}
+.blue_btn:hover{background-color:#39c8f7; color:#fff}
+.box_wrapper{background-color:#fff; box-shadow:0 0 9px #ddd; display:inline; float:left; width:100%}
+#header{float:left; display:inline; width:100%}
+.header_top{display:inline; float:left; width:100%; position:relative}
+.navbar{border-radius:0; float:left; margin-bottom:0; min-height:40px; width:80%; border:none}
+.header_search{float:right; display:inline}
+.navbar-nav > li > a{padding-bottom:10px; padding-top:10px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.navbar-collapse{padding-left:0}
+.container-fluid{padding-left:0}
+#searchIcon{border:0 none; cursor:pointer; display:block; font-size:1.2em; height:40px; width:50px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+#shide{overflow:hidden; position:absolute; top:-80px; width:100%; z-index:9999999; left:0; display:none; background-color:#fff; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+#search-hide input{background-color:rgba(255,255,255,1); border:0 none; font-family:"Open Sans"; font-size:16px; font-style:normal; font-weight:400; height:40px; padding:0 15px; width:95%; float:left}
+button.remove{background-color:transparent; border:0 none; color:#555; cursor:pointer; font-size:1.5em; float:right; padding-top:5px}
+.header_bottom{display:inline; float:left; padding:30px 15px; width:100%}
+.logo_area{width:25%; float:left; display:inline}
+.logo{font-size:35px; line-height:26px; font-family:"Varela",sans-serif; color:#252525}
