@@ -32,3 +32,29 @@ button.remove{background-color:transparent; border:0 none; color:#555; cursor:po
 .header_bottom{display:inline; float:left; padding:30px 15px; width:100%}
 .logo_area{width:25%; float:left; display:inline}
 .logo{font-size:35px; line-height:26px; font-family:"Varela",sans-serif; color:#252525}
+.logo:hover, .logo:focus{text-decoration:none; outline:none}
+a.logo b{color:#09c}
+.logo > span{font-size:16px; display:block}
+.top_addarea{float:right; width:728px; display:inline}
+.top_addarea a{width:100%}
+.top_addarea a > img{width:100%}
+.scrollToTop{bottom:105px; display:none; font-size:32px; font-weight:bold; height:50px; position:fixed; right:75px; text-align:center; text-decoration:none; width:50px; z-index:9999; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.scrollToTop:hover, .scrollToTop:focus{text-decoration:none; outline:none}
+.latest_newsarea{display:inline; float:left; width:100%; background-color:#1b1a1a}
+.news_sticker li a{display:inline-block; color:#eee; margin-right:40px}
+.latest_newsarea span{display:block; float:left; font-size:16px; padding:5px 25px; position:absolute; z-index:20}
+.news_sticker{float:right; width:85%; padding:5px 15px 5px 5px}
+.news_sticker li a:before{content:""; margin-right:5px}
+.news_sticker li a:before{display:inline-block; font-family:FontAwesome; font-style:normal; font-weight:normal; line-height:1}
+#preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#fff; z-index:99}
+#status{width:200px; height:200px; position:absolute; left:50%; top:50%; background-image:url("images/status.gif"); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px}
+.thumbnail_slider_area{display:inline; float:left; margin-top:20px; width:100%}
+.signle_iteam{position:relative; padding:0 3px}
+.slider_comntbox{background-color:rgba(0,0,0,0.5); left:15px; padding:5px 8px; position:absolute; top:10px; width:auto !important; z-index:5}
+.slider_comntbox > p{color:#fff !important; margin-bottom:0}
+.slider_comntbox > a{color:#fff !important}
+.signle_iteam img{width:100%; height:100%; transform:translate3d(0px,0px,0px); -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.signle_iteam:hover img{-webkit-transform:scale(1.1); -moz-transform:scale(1.1); -ms-transform:scale(1.1); -o-transform:scale(1.1); transform:scale(1.1)}
+.owl-carousel .signle_iteam:last-child img{width:100% !important}
+.slider_tittle{bottom:15px; color:#fff; font-size:20px; left:0; line-height:23px; margin:0 20px; padding:20px 0; position:absolute; right:0; text-align:center; width:auto; z-index:5}
+.slider_tittle:hover, .slider_tittle:focus{color:#fff}
