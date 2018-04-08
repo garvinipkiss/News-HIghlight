@@ -106,3 +106,25 @@ a.logo b{color:#09c}
 .catg_nav3 .catgimg_container{width:100%}
 .catg3_bottompost{float:left; display:inline; width:100%; margin-top:10px}
 .catg3_snav li{border-top:1px solid #f1f1f1; display:block; padding-top:15px; padding-bottom:5px}
+.catg3_snav .media-left{width:70px; height:70px}
+.catg3_snav .media-left:hover{opacity:0.75}
+.catg3_snav .media-left > img{width:100%; height:100%}
+.catg5_nav li{border-top:medium none; float:left; padding-bottom:0; padding-top:5px; width:49%}
+.right_bar{float:left; display:inline; width:100%}
+.ppost_nav li{border-top:none}
+.blog_archive{float:left; display:inline; width:100%}
+.blog_archive select{background-color:#eee; border:medium none; height:50px; padding:10px; width:100%}
+.blog_archive select option{cursor:pointer; padding:10px 5px}
+.label_nav li a{border-bottom:1px solid; color:#777; display:block; padding:8px 5px; font-size:13px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.label_nav li a:hover{text-decoration:none; padding-left:15px}
+.label_nav li a:before{content:""; display:inline-block; font-family:FontAwesome; font-style:normal; font-weight:normal; line-height:1; margin-right:5px}
+.link_nav li a{display:block; padding:3px 5px; font-size:13px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.link_nav li a:before{display:inline-block; font-family:FontAwesome; font-style:normal; font-weight:normal; line-height:1; content:""; margin-right:5px}
+.link_nav li a:hover{padding-left:15px; color:#777; text-decoration:none}
+#footer{float:left; display:inline; width:100%}
+.footer_top{float:left; display:inline; width:100%; background-color:#151515}
+.single_footer_top{float:left; display:inline; width:100%; padding-bottom:30px}
+.single_footer_top > h2{background-color:rgba(0,0,0,0.04); border-left:0 none; border-right:0 none; color:#b9b9b9; display:block; font-size:16px; font-weight:400; margin-bottom:15px; padding:10px 0}
+.single_footer_top ul li a{color:#eee}
+.subscribe_area{float:left; display:inline; width:100%}
+.subscribe_area p{font-size:13px; font-style:normal; font-weight:400px; color:#eee}
