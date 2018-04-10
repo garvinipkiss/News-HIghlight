@@ -1,16 +1,23 @@
-# News-HIghlight
+# News-Highlight
 
 # Description
 
-This is a web app that is able to highlight news.
+This is a web application that is able to highlight news from various news sources with different articles.
+
+## User Specification
+
+*  users are able to view and scroll news from different sources and choose their choice of source.
+* One is able to view all news articles from their selected news source
+* Users are able scroll news with image descriptions and date of the news article.
 
 ## Technologies Used
-1. `HTML5`
+1. `HTML`
 2. `CSS`
 3. `Python3.6`
 4. `Flask`
-5. `js`
+5. `virtual`
 6. `News Api`
+
 ## Support and contact details
 
 {Email:garvinipkiss@gmail.com}
