@@ -21,20 +21,12 @@ def index():
   title = 'News Headlines'
   return render_template('index.html', title = title, sport = sport_source,business = business_source, entertainment = entertainment_source, general = general_source, gaming = gaming_source, technology = technology_source, politics = politics_source, music = music_source)
 
-@main.route('/news/<id>')
-def news(id):
-    """
-    View articles page that returns the news article from a highlight
-    """
-    news_args = get_articles(id)
-    highlight_args = 'Route Working!!'
-    # name = f'{results_list}'
-    return render_template('news.html',
-                           highlight_param=highlight_args,
-                           news=news_args)
-
-
-"""
-We do not need another route to a sources articles since
-we will be displaying the urls tied to each article in our news list
-"""
+@main.route('/source/<id>')
+def source(id):
+  """
+  """
+  article = get_article(id)
+  # print(article)
+  source_id = id
+  title = f'{source_id}'
+  return render_template('source.html',title = title,article = article)
