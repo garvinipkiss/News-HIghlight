@@ -44,9 +44,8 @@ def get_sources(coutry, category):
 
 def process_sources(source_list):
     """
-    We now want to process the dictionary and
-    output a list of objects - news_results.
-    We process results will transform our dictionary into a list of objects.
+    We  process the dictionary and
+    output as list of objects - news_results.
     """
 news_results = []
     for source in source_list:
@@ -93,10 +92,9 @@ def get_articles(id):
 
 def process_articles(articles_list):
     """
-    We now want to process the dictionary and
-    output a list of objects - news_results.
+    We  process the dictionary and
+    output as list of objects - news_results.
 
-    We process results will transform our dictionary into a list of objects.
     """
     news_results = []
     source_dictionary = {}
