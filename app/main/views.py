@@ -11,15 +11,15 @@ def index():
 
   business_source = get_source('business')
   entertainment_source = get_source('entertainment')
-  general_source = get_source('general')
-  gaming_source = get_source('gaming')
+  international_source = get_source('international')
+  local_source = get_source('local')
   technology_source = get_source('technology')
-  politics_source = get_source('politics')
-  music_source = get_source('music')
+  health_source = get_source('health')
+  weather_source = get_source('weather')
   sport_source = get_source('sport')
   # print(sport_source)
-  title = 'News Headlines'
-  return render_template('index.html', title = title, sport = sport_source,business = business_source, entertainment = entertainment_source, general = general_source, gaming = gaming_source, technology = technology_source, politics = politics_source, music = music_source)
+  title = 'News Briefs'
+  return render_template('index.html', title = title, sport = sport_source,business = business_source, entertainment = entertainment_source, international = international_source, local = local_source, technology = technology_source, health = health_source, weather = weather_source)
 
 @main.route('/source/<id>')
 def source(id):
