@@ -3,20 +3,12 @@
 
 {% block styles %}
 
-    {{ super() }}
-
     <link rel="stylesheet" href="{{url_for('static',filename='css/source.css')}}">
 
 {% endblock %}
 
 <!-- Content Block -->
 {% block content %}
-<!-- <style>
-body{
-  background: #878787;
-  box-shadow:  0 0 10px #000;
-}
-</style> -->
 
 <div class="container">
   <!-- <div class="row"> -->
@@ -30,8 +22,5 @@ body{
 
   <!-- </div> -->
 </div>
-
-
-
 
 {% endblock %}

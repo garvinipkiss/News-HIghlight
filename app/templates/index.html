@@ -2,8 +2,6 @@
 {% import 'macros.html' as macro%}
 
 {% block styles %}
-
-    {{ super() }}
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
 
@@ -11,12 +9,6 @@
 
 <!-- Content Block -->
 {% block content %}
-<style>
-  body{
-    background: #878787;
-    box-shadow:  0 0 10px #000;
-  }
-</style>
 <div class="container">
   <h1 class="header text-center" style="color:white;" >NEWS BRIEFS</h1>
   <hr>

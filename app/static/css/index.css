@@ -1,10 +1,7 @@
 body{
-  background: #28292a;
+  background: #blue;
+  background-color: inherit;
 }
 .header{
-  font-family: 'Berkshire Swash', cursive;
   text-align: center;
-}
-a { 
-  color: black;
 }

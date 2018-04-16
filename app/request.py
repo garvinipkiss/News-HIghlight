@@ -16,6 +16,7 @@ def configure_request(app):
 
 def get_source(category):
   """
+  This function gets json response to our url request
   """
   get_source_url = news_source_url.format(category)
 
@@ -34,6 +35,7 @@ def get_source(category):
 
 def process_results(source_list):
   """
+      function processes the news source results and transform them to a list of objects
   """
   source_results = []
 
